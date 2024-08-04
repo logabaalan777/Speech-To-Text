@@ -42,6 +42,7 @@ def query():
         return jsonify({"error": "Unsupported Media Type. Content-Type must be 'application/json'."}), 415
     
     print(helllo)
+    print(NEXTHELLO)
 
 if __name__ == '__main__':
     app.run(debug=True)
