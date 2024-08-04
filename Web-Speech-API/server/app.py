@@ -43,6 +43,8 @@ def query():
     
     print("hi")
     print("demo")
+    print("hi")
+    print('new')
 
 if __name__ == '__main__':
     app.run(debug=True)
